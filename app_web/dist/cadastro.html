@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="/style.e308ff8e.css">
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.css">
+    <script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.js"></script>
+<script src="/style.e308ff8e.js"></script><script src="/paginacategory.js"></script></head>
+<body>
+    <select id="selectU" name="selectU"></select>
+    <div class="barra">
+        &nbsp <a href="/cadastro.html" style="color: #00ff88"> Cadastro </a>&nbsp
+        &nbsp <a href="/paginacategory.html" style="color: #00ff88"> Categoria </a>&nbsp
+        &nbsp <a href="/paginastock.html" style="color: #00ff88"> Estoque </a>&nbsp
+        &nbsp <a href="/paginasupplier.html" style="color: #00ff88"> Fornecedor </a>&nbsp
+        &nbsp <a href="/Login.html" style="color: #00ff88"> Login </a>&nbsp
+        &nbsp <a href="/paginaorder.html" style="color: #00ff88"> Pedido</a> &nbsp
+        &nbsp <a href="/paginaproduct.html" style="color: #00ff88"> Produto </a>&nbsp  
+    </div>
+    <div class="main-login">
+        <div class="right-login">
+            <div class="card-login">
+                <h1>Cadastro de Usuário</h1>
+                <div id="data-form" class="textfield">
+                    <label for="id">id</label>
+                    <input type="text" name="id" id="id" disabled=""><br>
+               
+                    <label for="nome">Nome:</label>
+                    <input type="text" name="name" id="name" placeholder="Digite seu nome"><br>
+               
+                    <label for="email">Email:</label>
+                    <input type="text" name="email" id="email" placeholder="Digite seu email"><br>
+              
+                    <label for="admin">Admin</label>
+                    <div class="switch_box box_1">
+                    <input type="checkbox" class="switch_1" name="admin" id="admin"></div><br>
+                
+                    <label for="senha">Senha:</label>
+                    <input type="password" name="senha" id="password" placeholder="Digite a sua senha"><br>
+                
+                <button id="btnSalvar" class="btn-login">Cadastrar</button>
+                    <div id="divright"><button id="btnLimpar" class="btn-limpar">Limpar</button></div>
+                    <label for="login">Você já tem uma conta?<a href="/login.html" style="color: #00ff88"> Fazer login </a> 
+            
+                    </label></div>
+                </div>
+            </div>
+                        <div style="color: #ffff" class="card-table">
+                        <table id="table_User">
+                        </table>       
+                    </div>
+    <script src="/cadastro.e7583882.js"></script>
+</div></body>
+</html>

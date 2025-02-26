@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pedidos</title>
+    <link rel="stylesheet" href="/style.e308ff8e.css">
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.css">
+    <script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.js"></script>
+    
+<script src="/paginaproduct.js"></script></head>
+<body>
+    <select id="selectO" name="selectO"></select>
+    <div class="barra">
+        <a href="/cadastro.html" style="color: #00ff88"> Cadastro </a>&nbsp
+        <a href="/paginacategory.html" style="color: #00ff88"> Categoria </a>&nbsp
+        <a href="/paginastock.html" style="color: #00ff88"> Estoque </a>&nbsp
+        <a href="/paginasupplier.html" style="color: #00ff88"> Fornecedor </a>&nbsp
+        <a href="/Login.html" style="color: #00ff88"> Login </a>&nbsp
+        <a href="/paginaorder.html" style="color: #00ff88"> Pedido</a> &nbsp
+        <a href="/paginaproduct.html" style="color: #00ff88"> Produto </a>&nbsp  
+    </div>
+    <div class="main-login">
+        <div class="right-login">
+            <div class="card-login">
+    <h1>Cadastro de Pedido</h1>
+    <div id="data-form" class="textfield">
+        <label for="id">id</label>
+        <input type="text" name="id" id="id" disabled=""><br>
+        <label for="numero">Número:</label>
+        <input type="text" id="number" name="numero" placeholder="Digite o número"><br>
+
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email" placeholder="Digite o email"><br>
+
+        <label for="produto">Produto:</label>
+        <input type="text" id="product" name="produto" placeholder="Digite o produto"><br>
+
+        <label for="quantidade">Quantidade:</label>
+        <input type="text" id="quantity" name="quantidade" placeholder="Digite a quantidade"><br>
+
+        <label for="preco">Preço:</label>
+        <input type="text" id="price" name="preco" placeholder="Digite o preço"><br>
+
+        
+        <button id="btnSalvar" class="btn-login">Cadastrar</button>
+        <div class="textfield">
+            <div id="divright"><button id="btnLimpar" class="btn-limpar">Limpar</button></div>
+    </div>
+</div>
+</div>
+</div>
+        <div style="color: #ffff" class="card-table">
+        <table id="table_Order">
+        </table>      
+
+    <script src="/paginaorder.dc546f91.js"></script>
+</div></div></body>
+</html>

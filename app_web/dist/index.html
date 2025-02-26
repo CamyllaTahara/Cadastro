@@ -1,0 +1,82 @@
+<html>
+    <head>
+        <title>Cadastro Usuario</title>
+        <style>tr label {
+                color: blue;
+
+            }
+            .fontBlue {
+                color: blue;
+            }
+            #email {
+                color: brown;
+            }</style>
+        <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+
+    </head>
+    <body>
+        <h1>Cadastro Usuarios</h1>
+        <table>
+            <tr>
+                <td><label>id:</label></td>
+                <td><input type="text" id="id" disabled=""> </td>
+            </tr>
+            <tr>
+                <td><label>Nome:</label></td>
+                <td><input type="text" class="fontBlue" id="name" placeholder="insira o nome"> </td>
+            </tr>
+            <tr>
+                <td><label>Email:</label></td>
+                <td><input type="email" id="email" placeholder="insira o email"> </td>
+            </tr>
+            <tr>
+                <td><label>Admin:</label></td>
+                <td><input type="checkbox" id="admin"></td>
+            </tr>
+            <tr>
+                <td><label>Password:</label></td>
+                <td><input type="password" id="password" placeholder="insira a senha"></td>
+            </tr>
+            <tr>
+                <td><label>Profile:</label></td>
+
+                <td>
+                    <select id="selectP" name="selectP"></select>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <button id="btnSalvar">Salvar</button>
+                    <button id="btnLimpar">Limpar</button>
+                </td>
+            </tr>
+        </table>
+        <hr>
+         <table>
+            <thead>
+                <tr>
+                <th>Codigo</th>
+                <th>Nome</th>
+                <th>Email</th>
+                <th>opções</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Joao</td>
+                    <td>Email@email.com</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Joao</td>
+                    <td>Email@email.com</td>
+                    <td></td>
+                </tr>
+                
+            </tbody>
+         </table>
+         <script src="/js.00a46daa.js"></script>
+         <script></script>
+    </body>
+</html>

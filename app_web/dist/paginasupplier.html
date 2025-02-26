@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Fornecedores</title>
+    <link rel="stylesheet" href="/style.e308ff8e.css">
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.css">
+    <script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.js"></script>
+    
+<script src="/Login.js"></script></head>
+<body>
+    <select id="selectS1" name="selectS1"></select>
+    <div class="barra">
+        <a href="/cadastro.html" style="color: #00ff88"> Cadastro </a>&nbsp
+        <a href="/paginacategory.html" style="color: #00ff88"> Categoria </a>&nbsp
+        <a href="/paginastock.html" style="color: #00ff88"> Estoque </a>&nbsp
+        <a href="/paginasupplier.html" style="color: #00ff88"> Fornecedor </a>&nbsp
+        <a href="/Login.html" style="color: #00ff88"> Login </a>&nbsp
+        <a href="/paginaorder.html" style="color: #00ff88"> Pedido</a> &nbsp
+        <a href="/paginaproduct.html" style="color: #00ff88"> Produto </a>&nbsp  
+    </div>
+    <div class="main-login">
+        <div class="right-login">
+            <div class="card-login">
+    <h1>Cadastro de Fornecedores</h1>
+    <div id="data-form" class="textfield">
+        <label for="id">id</label>
+        <input type="text" name="id" id="id" disabled=""><br>
+        <label for="nome">Nome:</label>
+        <input type="text" id="name" name="nome" placeholder="Digite o nome"><br>
+
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email" placeholder="Digite o email"><br>
+
+        <label for="categoria">Categoria:</label>
+        <input type="text" id="category" name="categoria" placeholder="Digite a categoria"><br>
+
+        <button id="btnSalvar" class="btn-login">Cadastrar</button>
+        <div class="textfield">
+            <div id="divright"><button id="btnLimpar" class="btn-limpar">Limpar</button></div>
+    </div>
+</div>
+</div>
+</div>
+        <div style="color: #ffff" class="card-table">
+        <table id="table_Supplier">
+        </table>  
+    <script src="/paginasupplier.5a9bc7db.js"></script>
+</div></div></body>
+</html>

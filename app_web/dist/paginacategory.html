@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Categorias</title>
+    <link rel="stylesheet" href="/style.e308ff8e.css">
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.css">
+    <script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.js"></script>
+    
+<script src="/paginastock.js"></script></head>
+<body>
+    <select id="selectC" name="selectC"></select>
+    <div class="barra">
+        <a href="/cadastro.html" style="color: #00ff88"> Cadastro </a>&nbsp
+        <a href="/paginacategory.html" style="color: #00ff88"> Categoria </a>&nbsp
+        <a href="/paginastock.html" style="color: #00ff88"> Estoque </a>&nbsp
+        <a href="/paginasupplier.html" style="color: #00ff88"> Fornecedor </a>&nbsp
+        <a href="/Login.html" style="color: #00ff88"> Login </a>&nbsp
+        <a href="/paginaorder.html" style="color: #00ff88"> Pedido</a> &nbsp
+        <a href="/paginaproduct.html" style="color: #00ff88"> Produto </a>&nbsp  
+    </div>
+    <div class="main-login">
+        <div class="right-login">
+            <div class="card-login">
+    <h1>Cadastro de Categorias</h1>
+    <div id="data-form" class="textfield">
+        <label for="id">id</label>
+        <input type="text" name="id" id="id" disabled=""><br>
+   
+        <label for="nome">Nome:</label>
+        <input type="text" id="name" name="nome" placeholder="Digite o nome"><br>
+
+        <label for="fornecedor">Fornecedor:</label>
+        <input type="text" id="supplier" name="fornecedor" placeholder="Digite o Fornecedor"><br>
+
+        <button id="btnSalvar" class="btn-login">Cadastrar</button>
+        <div class="textfield">
+            <div id="divright"><button id="btnLimpar" class="btn-limpar">Limpar</button></div>
+    </div>
+</div>
+</div>
+</div>
+        <div style="color: #ffff" class="card-table">
+        <table id="table_Category">
+        </table>       
+    </div>
+    <script src="/paginacategory.237ebe9c.js"></script>
+</div></body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.css" />
+    <script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.js"></script>
+</head>
+<body>
+    <select id="selectP" name="selectP"></select>
+    <div class="barra">
+        <a href="index.html" style="color: #00ff88"> Cadastro </a>&nbsp
+        <a href="paginacategory.html" style="color: #00ff88"> Categoria </a>&nbsp
+        <a href="paginastock.html" style="color: #00ff88"> Estoque </a>&nbsp
+        <a href="paginasupplier.html" style="color: #00ff88"> Fornecedor </a>&nbsp
+        <a href="Login.html" style="color: #00ff88"> Login </a>&nbsp
+        <a href="paginaorder.html" style="color: #00ff88"> Pedido</a> &nbsp
+        <a href="paginaproduct.html" style="color: #00ff88"> Produto </a>&nbsp  
+    </div>
+    <div class="main-login">
+        <div class="right-login">
+            <div class="card-login">
+    <h1>Login</h1>
+    <div id="data-form" class="textfield">
+        <label for="nome">Email</label>
+        <input type="text" id="email" name="email" placeholder="Digite o seu E-mail"><br>
+
+        <label for="fornecedor">Senha</label>
+        <input type="password" id="password" name="senha" placeholder="Digite a sua Senha"><br>
+
+        <button id="btnLogin" class="btn-login">Entrar</button>
+        <div class="textfield">
+            <div id="divright"><button id="btnLimpar" class="btn-limpar" >Limpar</button></div>
+            <label for="recuperacaologin"><a href="recuperacaologin.html" style="color: #00ff88">Esqueceu a senha?</a>
+            </div>
+            <label for="cadastro">Ainda não tem conta?<a href="cadastro.html" style="color: #00ff88"> Cadastre-se</a>
+    </div>
+</div>
+</div>
+    <script src="js/login.js"></script>
+</body>
+</html>
