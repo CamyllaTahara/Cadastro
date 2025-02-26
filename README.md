@@ -1,1 +1,1 @@
-# Meus Projetos
+# Este projeto é um sistema para controle de estoque, permitindo que o usuário cadastre, atualize, consulte e exclua informações de produtos. O sistema oferece funcionalidades para gerenciar categorias, pedidos e perfis de usuários, garantindo um fluxo eficiente de controle de mercadorias.
